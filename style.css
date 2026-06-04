@@ -1,0 +1,47 @@
+/* Grundlegende Einstellungen für die gesamte Seite */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling für den Header */
+header {
+  background-color: #0056b3;
+  color: #ffffff;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  margin: 0 0 0.5rem 0;
+}
+
+/* Styling für den Hauptinhalt */
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+section {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling für den Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #222222;
+  color: #aaaaaa;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.9rem;
+}
